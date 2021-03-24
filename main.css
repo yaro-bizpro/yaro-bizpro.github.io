@@ -1,0 +1,89 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f5f5f3;
+}
+.navbar {
+    background:#222;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: rgb(231, 41, 41);
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.header {
+    background-image: url('./images/main1.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.bio {
+    left: 59%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+}
+.bio h1 {
+    color: #222;
+    font-family:'Fredericka the Great', cursive;
+    font-size:5em;
+}
+.bio p {
+    color: #222;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+}
+.project-heading {
+    color:rgb(19, 18, 18);
+    font-family:'Fredericka the Great', cursive;
+    font-size:3em
+}
+
+.link:hover {
+    color: rgb(231, 41, 41);
+}
+.btn-outline-danger {
+    color: #dc3545;
+    border-color: #dc3545;
+}
+.container {
+    max-width: 960px;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.pricing-header {
+    max-width: 700px;
+}
+
+.text-center {
+    text-align: center!important;
+}
+.card-title {
+    color:#dc3545
+}
+.card-img-top {
+ width: 285px;
+ height: 150px;
+ color:aqua;
+    
+}
